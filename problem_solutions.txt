@@ -1,0 +1,101 @@
+Server Name:
+INHMT2E-DD3616\SQLEXPRESS
+
+Server=INHMT2E-DD3616\SQLEXPRESS;database=SampleDB;Integrated Security=SSPI;
+connetionString="Data Source=INHMT2E-DD3616\SQLEXPRESS;database=SampleDB"
+
+
+Problem resolved with this cmd:
+http://stackoverflow.com/questions/1616515/sql-server-express-create-database-permission-denied-in-database-master
+
+The Microsoft URL above is no longer valid, someone thou took the time to save it to GitHubGist and the link is as follows https://gist.github.com/wadewegner/1677788
+Run above cmd as Administrator
+Follow the instructions and your set.
+UPDATE 9/3/2014
+
+
+Agenda: AngularJS Example:
+https://www.codeproject.com/Articles/832288/CRUD-with-SPA-ASP-NET-Web-API-and-Angular-js
+
+
+some problem in push: another URL, down
+
+
+
+http://www.infragistics.com/community/blogs/dhananjay_kumar/archive/2015/06/05/a-step-by-step-guide-to-working-with-the-asp-net-web-api-and-angularjs.aspx
+
+Google Search: 	step by step create angularjs application with database
+
+		fetching data from angularjs factory w3schools
+		web api with angularjs crud
+	
+
+Unhandled exception at line 3, column 5 in http://localhost:22531/Scripts/app/Module.js
+
+0x800a1391 - JavaScript runtime error: 'angular' is undefined
+
+5 Steps to Develop a Basic AngularJS Application with Example:
+http://www.thegeekstuff.com/2015/04/angularjs-example/
+
+
+https://www.lemarson.com/public/upload/ressource/filename/944875912_AngularJS_Tutorial_W3Schools.pdf
+
+http://www.dotnet-tutorial.com/articles/angularjs/angular-js-with-mvc-basic-example
+http://cybarlab.com/crud-operations-in-angularjs-and-web-api
+http://www.dotnettricks.com/learn/angularjs/angularjs-crud-operations-with-webapi-ef-and-bootstrap
+https://www.codeproject.com/Tips/1074608/CRUD-in-ASP-NET-MVC-using-WebAPI-with-AngularJS
+https://www.codeproject.com/Articles/832288/CRUD-with-SPA-ASP-NET-Web-API-and-Angular-js
+http://www.c-sharpcorner.com/UploadFile/65794e/web-api-with-angular-js/
+http://www.amitavroy.com/justread/content/articles/angularjs-using-factory-method-post-data-and-saving-db/
+
+
+
+
+routeConfig.cs:
+https://blogs.msdn.microsoft.com/prakasht/2013/08/08/change-the-default-route-in-asp-net-mvc/
+http://stackoverflow.com/questions/33828225/asp-net-mvc5-the-webserver-is-not-configured-for-the-requested-url-and-director
+
+
+I finally figured it out. All I had to do was change the url in RouteConfig.cs
+
+from
+url: "{controller}/{action}/{name}/{id}"
+to
+url: "{controller}/{action}",
+
+
+seems to be good:
+https://www.codeproject.com/Articles/1158439/Crud-Operation-using-Angular-JS-and-Web-API
+http://www.ptutorial.com/angularjs-select-from-database
+
+
+how to create POCO classess:
+http://www.dotnetcurry.com/entityframework/725/plain-old-clr-objects-poco-entity-framework
+
+Good article about: EF, POCO, ADO.net, LINQ:
+http://www.dotnetcurry.com/ShowArticle.aspx?ID=599
+
+
+Google search:  what visual studio template is best for Hibernate c#
+
+NHibernate:
+http://www.dotnetjalps.com/2013/09/asp-net-mvc-nhibernate-crud-getting-started.html
+
+
+Fluent NHibernate:
+https://dzone.com/articles/crud-operation-aspnet-mvc-and
+
+
+
+Got an error:
+{"The following types may not be used as proxies:\nNHibernateSample.Models.Employee: method get_id should be 'public/protected virtual' or 'protected internal virtual'\nNHibernateSample.Models.Employee: method set_id should be 'public/protected virtual' or 'protected internal virtual'"}
+
+
+https://www.tutorialspoint.com/nhibernate/nhibernate_fluent_hibernate.htm
+
+http://www.infoworld.com/article/3030212/application-development/how-to-work-with-fluent-nhibernate-in-c.html
+
+Not sure:
+http://www.ehsanghanbari.com/Post/17/fluent-nhibernate-sample-project-in-aspnet-mvc
+
+verify that the instance name is correct and that the SQL server is configured to allow remote connections
